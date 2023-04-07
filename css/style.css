@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    /* position: fixed; */
+}
+.subheader{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stu{
+    width:100px;
+    height: 30px;
+    /* border: 1px solid black;
+    background-color: aqua; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.log{
+    width:70px;
+    height: 30px;
+    /* border: 1px solid black;
+    background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+}
+.imghold{
+    width: 100%;
+    height: 670px;
+    /* background-color: brown; */
+    background-image: url(../baking.webp);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.imgwrap{
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0,0,0,0.5);
+ display: flex;
+ align-items: center;
+
+}
+.texthold{
+    width: 630px;
+    height: 300px;
+    margin-left: 120px;
+}
+.hard{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.hard p{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hardy{
+    width: 100%;
+    height: 190px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.hardy h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxcontain{
+    width: 100%;
+    height: 420px;
+    /* background: red; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.box1{
+    width: 250px;
+    height: 350px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    position: absolute;
+    left: 50px;
+    bottom: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.loghld1{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(233, 40, 40);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+}
+.texhld1{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texhld1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.texshld1{
+    width: 90%;
+    height: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texshld1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.box2{
+    width: 250px;
+    height: 350px;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 340px;
+    bottom: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.box3{
+    width: 250px;
+    height: 350px;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 630px;
+    bottom: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.box4{
+    width: 250px;
+    height: 350px;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 930px;
+    bottom: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.othercontain{
+    width: 100%;
+    height: 500px;
+    background: rgba(222, 219, 215, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otherimg{
+    width: 420px;
+    height: 490px;
+}
+.otherimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.othertex{
+    width: 550px;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.esy{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.esy h4{
+    color: rgb(242, 46, 46);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    
+}
+.smr{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.smr h3{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+.lore{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lore p{
+    font-size: 17px;
+    font-style: italic;
+    margin-left: 60px;
+    color: slategray;
+}
+.creahold{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.creat{
+    width: 250px;
+    height: 200px;
+}
+.lig{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lig i{
+    font-size: 50px;
+    color:  rgb(242, 46, 46);
+    margin-left: 40px;
+}
+.cre{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cre h3{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loree{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.loree p{
+    color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-left: 30px;
+}
+.cde{
+    width: 250px;
+    height: 200px;
+}
+.uniqu{
+    width: 100%;
+    height: 230px;
+    background: blue;
+    display: flex;
+}
+.uniqubox1{
+    width: 350px;
+    height: 230px;
+}
+.uniqubox1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.uniqubox2{
+    width: 390px;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.dig{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dig h4{
+    color: rgb(242, 46, 46);
+    margin-right: 60px;
+}
+.youn{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youn h4{
+    font-size: 20px;
+    margin-right: 76px;
+    color: #fff;
+}
+.lort{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lort p{
+    color: grey;
+    font-style: italic;
+    margin-left: 30px;
+}
+.mre{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mree{
+    width: 130px;
+    height: 30px;
+    margin-right: 110px;
+    color: rgb(242, 46, 46);
+    display: flex;
+    align-items: center;
+}
+.uniqubox3{
+    width: 400px;
+    height: 230px;
+}
+.uniqubox3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.uniqubox4{
+    width: 400px;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.youn1{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youn1 h4{
+    font-size: 20px;
+    margin-right: 40px;
+    color: #fff;
+}
+.fin{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.finmre{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(242, 46, 46);
+}
+.finmred{
+    width: 680px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgconte1{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boximg{
+    width: 270px;
+    height: 280px;
+    /* border: 1px solid black; */
+}
+.boximg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgconte2{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.valu{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.valutex{
+    width: 500px;
+    height: 300px;
+}
+.valfea{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.valfea h4{
+    color: rgb(242, 46, 46);
+}
+.whych{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.list{
+    width: 420px;
+    height: 200px;
+    font-style: italic;
+}
+.list ol{
+    margin-left: 20px;
+    color: grey;
+}
+.valuimg{
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+}
+.valuimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.desi{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.desibox1{
+    width: 500px;
+    height: 570px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.we{
+    width: 280px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: rgb(233, 40, 40);
+}
+.awe{
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.desihold1{
+    width: 499px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desicon1{
+    width: 200px;
+    height: 200px;
+}
+.iconhol{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.iconhol i{
+    font-size: 50px;
+    color: rgb(233, 40, 40);
+}
+.bes{
+    width: 170px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.loe{
+    width: 170px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.loe p{
+    font-style: italic;
+}
+.desicon2{
+    width: 200px;
+    height: 200px;
+}
+.desihold2{
+    width: 499px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desibox2{
+    width: 500px;
+    height: 570px;
+    border-radius: 30px;
+}
+.desibox2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.lapibac{
+    width: 100%;
+    height: 550px;
+    background-color: green;
+   background-image: url(../lapppppp.webp);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+.lapwrap{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lapitex{
+    width: 600px;
+    height: 300px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pitex{
+    width: 599px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.pitex h4{
+    color: rgb(233, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apitex{
+    width: 599px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apitex h1{
+    font-size: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 29px;
+}
+.map{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.maptext{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.maptexo1{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.maptexo1 h3{
+    color: rgb(242, 46, 46);
+}
+.maptexo2{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.maptexo3{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.maptexo4{
+ width: 100%;
+ height: 20px;
+ display: flex;
+ align-items: center;
+}
+.maptexo4 h5{
+    color: rgba(236, 92, 92, 0.563);
+}
+.mapimg{
+    width: 400px;
+    height: 400px;
+}
+.mapimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
